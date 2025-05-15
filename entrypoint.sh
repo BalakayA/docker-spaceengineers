@@ -8,7 +8,7 @@ INSTANCE_IP=$(hostname -I | sed "s= ==g")
 
 
 echo "-------------------------------INSTALL & UPDATE------------------------------"
-/usr/games/steamcmd +force_install_dir ${GAME_DIR} +login anonymous +@sSteamCmdForcePlatformType windows +app_update 298740 -beta v1.205 +quit
+/usr/games/steamcmd +force_install_dir ${GAME_DIR} +login anonymous +@sSteamCmdForcePlatformType windows +app_update 298740 -beta 17455037 +quit
 
 echo "---------------------------------UPDATE CONFIG-------------------------------"
 # update IP to host external ip
